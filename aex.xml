@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- device/kernel/vendor trees  -->
   <project path="device/xiaomi/ginkgo" name="LeddaZ/device_xiaomi_ginkgo" remote="github" revision="aex" />
   <project path="kernel/xiaomi/ginkgo" name="LeddaZ/kernel_xiaomi_ginkgo" remote="github" revision="10.0" />
   <project path="vendor/xiaomi/ginkgo" name="LeddaZ/vendor_xiaomi_ginkgo" remote="github" revision="10.0" />
+  <!-- proton-clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-11.0" name="LeddaZ/proton-clang" remote="github" revision="master" />
+  <!-- required for misoundfx -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-17.1" />
+  <!-- display/media/audio HALs required for booting -->
   <project path="hardware/qcom/display-caf/sm8150" name="LeddaZ/hardware_qcom-caf_sm8150_display" remote="github" revision="ten" />
   <project path="hardware/qcom/media-caf/sm8150" name="LeddaZ/hardware_qcom-caf_sm8150_media" remote="github" revision="ten" />
   <project path="hardware/qcom/audio-caf/sm8150" name="LeddaZ/hardware_qcom-caf_sm8150_audio" remote="github" revision="ten" />
-  <project path="vendor/gapps" name="opengapps/aosp_build" remote="github" revision="master" />
+  <!-- opengapps remotes -->
+  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
+  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <!-- arm64 depends on arm -->
+  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
+  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 </manifest>
