@@ -12,10 +12,4 @@
   <project path="hardware/qcom/display-caf/sm8150" name="LeddaZ/hardware_qcom-caf_sm8150_display" remote="github" revision="ten" />
   <project path="hardware/qcom/media-caf/sm8150" name="LeddaZ/hardware_qcom-caf_sm8150_media" remote="github" revision="ten" />
   <project path="hardware/qcom/audio-caf/sm8150" name="LeddaZ/hardware_qcom-caf_sm8150_audio" remote="github" revision="ten" />
-  <!-- opengapps remotes -->
-  <project path="vendor/opengapps/build" name="aosp_build" revision="master" remote="opengapps" />
-  <project path="vendor/opengapps/sources/all" name="all" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <!-- arm64 depends on arm -->
-  <project path="vendor/opengapps/sources/arm" name="arm" clone-depth="1" revision="master" remote="opengapps-gitlab" />
-  <project path="vendor/opengapps/sources/arm64" name="arm64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 </manifest>
