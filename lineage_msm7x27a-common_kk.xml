@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- device/kernel/vendor trees  -->
+  <project path="device/samsung/jena" name="LeddaZ/android_device_samsung_s6500" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm7x27a-common" name="LeddaZ/android_device_samsung_msm7x27a-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/msm-caf" name="LeddaZ/android_kernel_msm_caf" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="LeddaZ/proprietary_vendor_samsung_msm7x27a" remote="github" revision="cm-11.0" />
+</manifest>
