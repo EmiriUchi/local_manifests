@@ -1,2 +1,2 @@
 # local_manifests
-Local manifests that I use to build custom ROMs for ginkgo/willow.
+Local manifests that I use to build custom ROMs.
