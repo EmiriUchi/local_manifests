@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="queso" />
+  <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="queso" />
+  <project path="kernel/xiaomi/sm6250" name="LeddaZ/kernel_xiaomi_sm6250" remote="github" revision="queso" />
+  <project path="vendor/xiaomi" name="LeddaZ/vendor_xiaomi" remote="github" revision="queso" />
+</manifest>
