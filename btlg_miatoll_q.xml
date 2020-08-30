@@ -4,4 +4,5 @@
   <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="queso" />
   <project path="kernel/xiaomi/sm6250" name="LeddaZ/kernel_xiaomi_sm6250" remote="github" revision="queso" />
   <project path="vendor/xiaomi" name="LeddaZ/vendor_xiaomi" remote="github" revision="queso" />
+  <project path="device/bootleg/sepolicy" name="LeddaZ/device_bootleg_sepolicy" remote="github" revision="queso" />
 </manifest>
