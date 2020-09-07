@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Remove Bootleggers sepolicy repo -->
-  <remove-project name="device/bootleg/sepolicy" />
   <!-- Device trees -->
   <project path="device/xiaomi/miatoll" name="LeddaZ/device_xiaomi_miatoll" remote="github" revision="queso" />
   <project path="device/xiaomi/sm6250-common" name="LeddaZ/device_xiaomi_sm6250-common" remote="github" revision="lineage-17.1" />
