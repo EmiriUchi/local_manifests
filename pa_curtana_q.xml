@@ -9,4 +9,6 @@
   <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
   <!-- Vendor tree -->
   <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" remote="gitlab" revision="lineage-17.1" />
+  <!-- My android_vendor_pa fork -->
+  <project path="vendor/pa" name="LeddaZ/android_vendor_pa" remote="github" revision="quartz" />
 </manifest>
