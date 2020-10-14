@@ -14,4 +14,10 @@
   <!-- Vendor tree -->
   <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" remote="gitlab" revision="lineage-17.1" />
   
+  <!-- ANXCamera -->
+  <project path="vendor/aeonax/ANXCamera" name="LeddaZ/vendor_aeonax_ANXCamera" remote="github" revision="ten" />
+
+  <!-- proton-clang-->
+  <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="github" revision="master" />
+
 </manifest>
