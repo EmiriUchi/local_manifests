@@ -8,3 +8,5 @@ Local manifests that I use to build custom ROMs.
 `du_curtana_q.xml`: Dirty Unicorns 14.x for Redmi Note 9S/Pro/Pro Max and Poco M2 Pro
 
 `pa_curtana_q.xml`: Paranoid Android Quartz for Redmi Note 9S/Pro/Pro Max and Poco M2 Pro
+
+`hentai_curtana_q.xml`: hentaiOS Rika for Redmi Note 9S/Pro/Pro Max and Poco M2 Pro
