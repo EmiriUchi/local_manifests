@@ -22,7 +22,7 @@
   <project path="vendor/aeonax/ANXCamera" name="LeddaZ/vendor_aeonax_ANXCamera" remote="github" revision="ten" />
 
   <!-- proton-clang -->
-  <project path="" name="kdrag0n/proton-clang" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="github" revision="master" />
 
   <!-- WireGuard -->
   <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" revision="master" sync-s="true" />
