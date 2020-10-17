@@ -4,8 +4,6 @@
   <!-- External remotes -->
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
-  <remote  name="zx2c4"
-           fetch="https://git.zx2c4.com/" />
            
   <!-- Device tree -->
   <project path="device/xiaomi/curtana" name="LeddaZ/android_device_xiaomi_curtana-unified" remote="github" revision="lineage-17.1" />
@@ -15,8 +13,5 @@
 
   <!-- Vendor tree -->
   <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" remote="gitlab" revision="lineage-17.1" />
-
-  <!-- WireGuard -->
-  <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" revision="master" sync-s="true" />
 
 </manifest>
