@@ -3,10 +3,6 @@
 
   <!-- LineageOS 17.1 for Redmi Note 9S/Pro/Pro Max and POCO M2 Pro;
        based on SonalSingh's ArrowOS trees -->
-
-  <!-- WireGuard remote -->
-  <remote  name="zx2c4"
-           fetch="https://git.zx2c4.com/" />
            
   <!-- Device trees -->
   <project path="device/xiaomi/miatoll" name="LeddaZ/android_device_xiaomi_miatoll" remote="github" revision="lineage-17.1" />
@@ -23,8 +19,5 @@
 
   <!-- proton-clang -->
   <project path="prebuilts/clang/host/linux-x86/clang-12.0.0" name="kdrag0n/proton-clang" remote="github" revision="master" />
-
-  <!-- WireGuard -->
-  <project path="kernel/wireguard" name="android_kernel_wireguard" remote="zx2c4" revision="master" sync-s="true" />
 
 </manifest>
