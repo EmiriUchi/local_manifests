@@ -9,7 +9,7 @@
   <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
 
   <!-- Vendor tree -->
-  <project path="vendor/xiaomi" name="LeddaZ/android_vendor_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
+  <project path="vendor/xiaomi/sm6250" name="LeddaZ/android_vendor_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
   
   <!-- ANXCamera -->
   <project path="vendor/aeonax/ANXCamera" name="LeddaZ/vendor_aeonax_ANXCamera" remote="github" revision="ten" />
