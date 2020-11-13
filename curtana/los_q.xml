@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
            
-  <!-- Device tree -->
-  <project path="device/xiaomi/curtana" name="LeddaZ/device_xiaomi_curtana" remote="github" revision="lineage-17.1" />
+  <!-- Device trees -->
+  <project path="device/xiaomi/curtana" name="LeddaZ/android_device_xiaomi_curtana-unified" remote="github" revision="lineage-17.1" />
+  <project path="device/xiaomi/sm6250-common" name="LeddaZ/android_device_xiaomi_sm6250-common" remote="github" revision="lineage-17.1" />
 
   <!-- Kernel source -->
-  <project path="kernel/xiaomi/sm6250" name="LeddaZ/kernel_xiaomi_curtana" remote="github" revision="lineage-17.1" />
+  <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
 
   <!-- Vendor tree -->
-  <project path="vendor/xiaomi/curtana" name="LeddaZ/vendor_xiaomi_sm6250-common" remote="github" revision="lineage-17.1" />
+  <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" remote="github" revision="lineage-17.1" />
+
+  <!-- Media HAL -->
+  <project path="hardware/qcom-caf/sm8150/media" name="xiaomi-sm6250-devs/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sm8150" />
 
 </manifest>
