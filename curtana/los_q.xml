@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
            
+  <!-- GitLab remote -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+           
   <!-- Device tree -->
   <project path="device/xiaomi/curtana" name="LeddaZ/android_device_xiaomi_curtana-unified" remote="github" revision="lineage-17.1" />
 
@@ -8,7 +12,7 @@
   <project path="kernel/xiaomi/sm6250" name="LeddaZ/android_kernel_xiaomi_sm6250" remote="github" revision="lineage-17.1" />
 
   <!-- Vendor tree -->
-  <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" remote="github" revision="lineage-17.1" />
+  <project path="vendor/xiaomi" name="LeddaZ/proprietary_vendor_xiaomi" remote="gitlab" revision="lineage-17.1" />
 
   <!-- Media HAL -->
   <project path="hardware/qcom-caf/sm8150/media" name="xiaomi-sm6250-devs/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sm8150" />
