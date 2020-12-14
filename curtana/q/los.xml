@@ -18,4 +18,7 @@
   <project path="hardware/qcom-caf/sm8150/media" name="xiaomi-sm6250-devs/android_hardware_qcom_media" remote="github" revision="lineage-17.1-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/audio" name="xiaomi-sm6250-devs/android_hardware_qcom_audio" remote="github" revision="lineage-17.1-caf-sm8150" />
 
+  <!-- My Updater fork -->
+  <project path="packages/apps/Updater" name="LeddaZ/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
+
 </manifest>
