@@ -19,8 +19,5 @@
 
   <!-- My Updater fork -->
   <project path="packages/apps/Updater" name="LeddaZ/android_packages_apps_Updater" remote="github" revision="lineage-17.1" />
-
-  <!-- Manifest with Jan 2021 ASB -->
-  <project path="android" name="LeddaZ/android" remote="github" revision="lineage-17.1" />
-
+  
 </manifest>
