@@ -15,7 +15,4 @@
   <!-- MiuiCamera -->
   <project path="vendor/xiaomi/miuicamera" name="SonalSingh18/vendor_xiaomi_miuicamera" remote="github" revision="master" />
 
-  <!-- Awaken exFAT repo -->
-  <project path="external/exfat" name="Project-Awaken/android_external_exfat" remote="github" revision="11" />
-
 </manifest>
