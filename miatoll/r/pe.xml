@@ -12,4 +12,7 @@
   <project path="vendor/xiaomi/miatoll" name="LeddaZ/vendor_xiaomi_miatoll" remote="github" revision="pe11" />
   <project path="vendor/xiaomi/sm6250-common" name="LeddaZ/vendor_xiaomi_sm6250-common" remote="github" revision="pe11" />
 
+  <!-- Other dependencies -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-18.1" />
+
 </manifest>
